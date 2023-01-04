@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallo Welt</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #333;
+            color: #f1f1f1;
+        }
+
+        div.bg {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            _height: 100vh;
+            background-image: url('bg.jpg');
+            background-repeat: no-repeat;
+            background-size: 200px;
+            background-position: center center;
+        }
+
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 700;
+            font-size: 10vw;
+            color: #f1f1f1;
+        }
+
+        /*       ul {
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #164861;
+            list-style: none;
+            padding: 20px;
+            color: #f1f1f1;
+        }
+
+        li {
+            margin-right: 2em;
+        }*/
+
+        .wrapper {
+            margin: auto;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        h2 {
+            margin-top: 1em;
+            margin-bottom: 0.3em;
+        }
+
+        ul {
+            margin-bottom: 1em;
+        }
+
+        li {
+            margin-left: 2em;
+        }
+
+        a {
+            color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="bg">
+        <h1>Hallo Welt</h1>
+        <p>DynDNS</p>
+        <p>FritzBox</p>
+        <p>Raspberry Pi</p>
+        <p>Apache2 on Port:443<br>https://guteswetter.ddns.net:443</p>
+        <ul>
+            <li>Raspbian GNU/Linux 11</li>
+            <li>Apache/2.4.53</li>
+            <li>Port 443</li>
+            <li>PHP/8.1.4</li>
+            <li>MariaDB/15.1</li>
+            <li><a href="https://www.ssllabs.com/ssltest/analyze.html?d=guteswetter.ddns.net" target="_blank">Qualys SSL
+                    Report</a></li>
+        </ul>
+    </div> -->
+
+    <div class="wrapper">
+        <h2>DynDNS</h2>
+        <ul>
+            <li>no-ip.com</li>
+        </ul>
+        <h2>FritzBox</h2>
+        <ul>
+            <li>DynDNS</li>
+            <li>Portfreigaben</li>
+        </ul>
+        <h2>Raspberry Pi</h2>
+        <ul>
+            <li>Raspbian GNU/Linux: 11</li>
+            <li>Apache: 2.4.54</li>
+            <li>MariaDB: 10.5.15</li>
+            <li>PHP: 8.2.0</li>
+            <li><a href="https://www.ssllabs.com/ssltest/analyze.html?d=guteswetter.ddns.net" target="_blank">Qualys SSL
+                    Report</a></li>
+        </ul>
+        <h2>Node-Red Projekt</h2>
+        <ul>
+            <li><a href="https://guteswetter.ddns.net:1880 target=" _blank">guteswetter.ddns.net:1880</a></li>
+
+        </ul>
+    </div>
+
+</body>
+
+</html>
